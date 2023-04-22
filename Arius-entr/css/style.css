@@ -1,0 +1,152 @@
+/*Je m'excuse à l'avance pour l'organisation catastrophique du site ^^' */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.tete {
+  display: display-block;
+}
+
+header {
+  text-align: center;
+}
+
+
+.tete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #000, #444);
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.tete.hide {
+  opacity: 0;
+}
+.tete img {
+  height: 90px;
+  margin-right: 50px;
+}
+
+
+  nav li {
+            display: inline-block;
+            margin-left: 50px; 
+            margin-right: 50px;
+            width: 80px;
+            height: 40px;
+            color: #3524b7;
+            line-height: 50px;
+            background: #a8a3bd; 
+            
+            text-align: center;
+            border: 2px solid #1f13c9;
+            border-radius: 10px; /* ajout de la propriété border-radius */
+            background-image: url('o.avif.jpg');
+        }  
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: blue;
+}
+
+a {
+  background-color: none;
+}
+
+footer[name="footer1"] {
+  background: linear-gradient(to right, #000, #444);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+body {
+  background-image: linear-gradient(to bottom, #000000, #333333);
+}
+
+t {
+  color: blue;
+  text-shadow: 0px 0px 8px white;
+  -webkit-text-stroke: 1px black;
+  font-size: 24px;
+}
+
+h1 {
+  color: blue;
+  text-shadow: 0px 0px 8px white;
+  -webkit-text-stroke: 1px black;
+  font-size: 24px;
+  margin-top:10%;
+}
+
+
+.test li { 
+  display: inline-block;
+  right: 150px;  
+  top: 20px;
+  width: 300px;
+  height: calc(100% - 240px);
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #033382;
+  border-radius: 10px;
+  margin: 25px;
+  margin-left: 5px;
+  box-shadow: 0px 0px 10px white;
+  background: linear-gradient(to bottom, #1d1b1b, #0c0c0d);
+  /*z-index: 1;*/
+  -webkit-text-stroke: 1px #0c0c0e;
+  color: blue;
+}
+.test l {
+  display: block;
+  text-align: center;
+  right: 150px;  
+  top: 20px;
+  width: 100%;
+  height: calc(100% - 240px);
+  padding: 20px;
+}
+
+ /*.box h2 {
+   color: blue ;
+  text-shadow: 0px 0px 8px white;
+  -webkit-text-stroke: 1px black;
+}*/
+   
+
+.box img {
+  height: 100px;
+  margin-right: 100px;
+  width: 100px;*/
+}
+
+.test img{
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+h2 {
+  color: blue;
+}
+
+
+

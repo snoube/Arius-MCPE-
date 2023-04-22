@@ -1,0 +1,30 @@
+/*Css de la page article */
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid blue;
+  padding: 2%;
+  margin: 2%;
+  height: 200%;
+}
+.event1 {
+  border: 8px solid blue;
+  padding: 2%;
+  margin: 2%;
+  color: white;
+}
+.pub {
+  border: 8px solid blue;
+  padding: 2%;
+  margin: 2%;
+  margin-left: 20%;
+  width: 500px;
+  color: red;
+}
+
+.event1 img {
+  height: 200px;
+  width: 200px;
+  margin: 10%;
+}
